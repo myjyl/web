@@ -7,8 +7,16 @@ h1{
     text-align: center;
     background-color: #1e1e2e;
     color: #ffffff;
+    padding: 5%;
 }
 
+nav ul{
+    background-color: #838384;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+
+}
 h2{
     color: #1e1e2e;
 }
