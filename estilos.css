@@ -10,27 +10,62 @@ h1{
     padding: 10px;
 }
 
-nav ul{
-    background-color: #838384;
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-}
+/* Esto es el munú desplegable */
 
-nav li{
-    display: inline-flex;
-}
-
-nav a{
+nav {
+    background-color: #888384;
+    color: #1e1e2e;
+    padding: 1em;
+  }
+  
+  .menu-principal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-principal li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu-principal a {
+    color: #fff;
     text-decoration: none;
-    color: #ededed;
-}
+    padding: 0.5em 1em;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 1em;
+    left: 100%;
+    top: 0;
+  }
+  
+  .submenu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .submenu a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  
+  .menu-principal li:hover .submenu {
+    display: block;
+  }
+  
 
 h2{
     text-align: center;
     color: #ffffff;
 }
-}
+
 .contenedor1 {
     width: 350px;
     height: 200px;
