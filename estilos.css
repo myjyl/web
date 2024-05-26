@@ -75,6 +75,7 @@ h2{
 .contenedor1 {
     width: 80%;
     height: 200px;
+    align-items: center;
     border: 1px solid #1e1e2e;
     background-color: #1e1e2e;
     border-radius: 10px;
@@ -86,6 +87,7 @@ h2{
 .contenedor2 {
   width: 80%;
   height: 200px;
+  align-items: center;
   border: 1px solid #1e1e2e;
   background-color: #1e1e2e;
   border-radius: 10px;
