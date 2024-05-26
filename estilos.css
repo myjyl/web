@@ -20,24 +20,28 @@ nav {
     padding: 10px;
   }
   
-  .menu-principal {
+  .menú {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .menu-principal li {
+  .menú li {
     display: inline-flex;
     margin-right: 20px;
   }
   
-  .menu-principal a {
+  .menú a {
     color: #ededed;
     text-decoration: none;
     padding: 0.5em 1em;
   }
+
+  .menú li:hover {
+    background-color: #1e1e2e;
+  }
   
-  .submenu {
+  .submenú {
     display: none;
     position: absolute;
     background-color: #888384;
@@ -46,26 +50,26 @@ nav {
     top: 0;
   }
   
-  .submenu li {
+  .submenú li {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .submenu a {
+  .submenú a {
     color: #333;
     text-decoration: none;
     padding: 0.5em 1em;
   }
   
-  .menu-principal li:hover .submenu {
+  .menú li:hover .submenu {
     display: block;
   }
   
 
 h2{
     text-align: center;
-    color: #ffffff;
+    color: #1e1e2e;
 }
 
 .contenedor1 {
@@ -77,4 +81,3 @@ h2{
     margin: 20px;
     text-align: left;
 }
-
