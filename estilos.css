@@ -19,7 +19,6 @@ nav ul{
 
 nav li{
     display: inline-flex;
-    float: left;
 }
 
 nav a{
