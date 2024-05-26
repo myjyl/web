@@ -72,6 +72,8 @@ h2{
     width: 350px;
     height: 200px;
     border: 1px solid #1e1e2e;
+    background-color: #1e1e2e;
+    border-radius: 10px;
     margin: 20px;
     text-align: left;
 }
