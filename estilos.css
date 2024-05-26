@@ -25,6 +25,17 @@ nav a{
     text-decoration: none;
     color: #ededed;
 }
+
 h2{
-    color: #1e1e2e;
+    text-align: center;
+    color: #ffffff;
 }
+}
+.contenedor1 {
+    width: 350px;
+    height: 200px;
+    border: 1px solid #1e1e2e;
+    margin: 20px;
+    text-align: left;
+}
+
