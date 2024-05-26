@@ -83,3 +83,14 @@ h2{
     color: #ededed;
     padding: 5%;
 }
+.contenedor2 {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #1e1e2e;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: left;
+  color: #ededed;
+  padding: 5%;
+}
