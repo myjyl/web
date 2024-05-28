@@ -23,7 +23,7 @@ nav {
   .menú {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
   
   .menú li {
@@ -34,7 +34,7 @@ nav {
   .menú a {
     color: #ededed;
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: 10px;
   }
 
   .menú li:hover {
