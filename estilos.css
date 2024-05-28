@@ -83,7 +83,7 @@ h2{
     margin: 20px;
     text-align: left;
     color: #ededed;
-    padding: 10%;
+    padding: center;
 }
 
 .contenedor2 {
@@ -96,14 +96,14 @@ h2{
   margin: 20px;
   text-align: left;
   color: #ededed;
-  padding: 10%;
+  padding: center;
 }
 
 .fondo {
   padding: 15px;
   color: #ededed;
   background-color: #1e1e2e;
-  position: absolute;
+  position: ;
   width: 100%;
   bottom: 0;
 }
