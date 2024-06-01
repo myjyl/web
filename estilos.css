@@ -79,10 +79,12 @@
   text-align: center;
   background-color: #1e1e2e;
   font-size: 20%;
-  
+}
+.marquesia-text {
+
 }
 
-h1{
+.titulo {
     text-align: center;
     background-color: #1e1e2e;
     color: #ededed;
@@ -186,7 +188,7 @@ h2{
   width: 100%;
 }
 
-.fondo img {
+.fondo {
   padding: 20px;
   width: 50px;
   height: 50px;
